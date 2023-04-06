@@ -38,7 +38,7 @@ void adminLoginPanel(bool adminRunning) {
     printf("Administrator Login Panel\n=========================\n");
     if (adminLogin() == true) {
         while(adminRunning) {
-            printf("\nAdministrator Panel ()\n===================\n");
+            printf("\nAdministrator Panel (1-2)\n===================\n");
             printf("1. Admin Panel\n");
             printf("2. Logout\n");
             scanf("%d", &panelResponse);
@@ -65,7 +65,7 @@ void pollingLoginPanel(bool pollingRunning) {
     printf("Polling Officer\n");
     if (pollingLogin() == true) {
         while(pollingRunning) {
-            printf("\nPolling Officer Panel\n=====================\n");
+            printf("\nPolling Officer Panel (1-3)\n=====================\n");
             printf("1. Admin Panel\n");
             printf("2. Poll Panel\n");
             printf("3. Logout\n");
